@@ -1,0 +1,56 @@
+.mrow{
+    height: 700px;
+}
+.mcol1{
+    height: 3px;
+}
+.mcol2{
+    height: 700px;
+    width: 100%;
+    justify-content: center;
+}
+body{
+   color: bisque;
+    overflow: hidden;
+    justify-content: center;
+    width: 100%;
+}
+
+.fletter{
+    color: red;
+}
+h5{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    font-size:larger;
+    margin-top: 200px;
+}
+.icons-social{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    right: 0%;
+    z-index: 100;
+  }
+  .icons-social a{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    font-size: 25px !important;
+    margin-bottom: 3px;
+  }
+.card{
+    width: 50%;
+    height: 80%;
+}
+input{
+    width: auto;
+    height: auto;
+}
+.btn{
+    border-radius: 250px;
+    margin-top: auto;
+}
